@@ -5,6 +5,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background:#f5f5f5 ;
 }
 
 /*
@@ -25,3 +26,119 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi{
+    width: 670px;
+    height: 440px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 5px #959595;
+    border-radius: 30px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    }
+
+.logo,{
+    padding: 0px 0px 15px 0px;
+}
+
+.slogan{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 0px 0px 0px;
+    }
+
+.vizual, .detaily{
+    width: 335px;
+    height: 440px;
+    padding: 30px;
+    position: absolute;
+}    
+.vizual{
+    background: linear-gradient(135deg, #06d7c1,#50cc49);
+    border: 1px solid #06d7c1;
+    border-radius: 30px 0px 0px 30px;
+    color: white;
+}
+
+.cenovka,.bota, .tlacitko{
+    position: absolute;
+}
+.cenovka{
+    text-align: right;
+    bottom: 30px;
+    right: 30px;
+}
+
+.cena{
+    font-size: 28px;
+    font-weight: 500;
+    }
+
+.zaruka{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.detaily{
+    border-radius: 0px 30px 30px 0px;
+    left: 335px;
+}
+
+.nazev{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.produkt{
+    color: #959595;
+}
+
+.popis{
+    padding: 30px 0px;
+    border-bottom: 1px solid #959595;
+}
+
+.parametr{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.velikosti{
+    padding: 0; 
+}
+
+li{
+    display: inline;
+    padding: 0px 5px 0px 0px;
+    margin: 0px 15px 30px 0px;
+    }
+
+.tlacitko{
+    color: white;
+    background: #f15f42;
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    bottom: 30px;
+}
+
+.tlacitko:hover{
+    border: 1px solid #06d7c1;
+    background: #50cc49;
+}
+.vybrana{
+    border: 1px dotted #f15f42;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.bota{
+    left: -80px;
+}
