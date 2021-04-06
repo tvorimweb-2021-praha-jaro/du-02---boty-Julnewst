@@ -27,7 +27,7 @@ body {
 
 /* ----- zde zacni psat vlastni css ----- */
 
-.zbozi{
+.zbozi {
     width: 670px;
     height: 440px;
     border: 1px solid #f5f5f5;
@@ -41,85 +41,86 @@ body {
     top: 100px;
     }
 
-.logo,{
+.logo {
     padding: 0px 0px 15px 0px;
 }
 
-.slogan{
+.slogan {
     font-size: 16px;
     font-weight: 500;
     padding: 15px 0px 0px 0px;
-    }
+}
 
-.vizual, .detaily{
+.vizual, .detaily {
     width: 335px;
     height: 440px;
     padding: 30px;
     position: absolute;
-}    
-.vizual{
+}  
+
+.vizual {
     background: linear-gradient(135deg, #06d7c1,#50cc49);
     border: 1px solid #06d7c1;
     border-radius: 30px 0px 0px 30px;
     color: white;
 }
 
-.cenovka,.bota, .tlacitko{
+.cenovka,.bota, .tlacitko {
     position: absolute;
 }
-.cenovka{
+.cenovka {
     text-align: right;
     bottom: 30px;
     right: 30px;
 }
 
-.cena{
+.cena {
     font-size: 28px;
     font-weight: 500;
-    }
+}
 
-.zaruka{
+.zaruka {
     font-size: 12px;
     font-weight: 400;
 }
 
-.detaily{
+.detaily {
     border-radius: 0px 30px 30px 0px;
     left: 335px;
 }
 
-.nazev{
+.nazev {
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
     margin: 0;
 }
 
-.produkt{
+.produkt {
     color: #959595;
 }
 
-.popis{
+.popis {
     padding: 30px 0px;
     border-bottom: 1px solid #959595;
 }
 
-.parametr{
+.parametr {
     text-transform: uppercase;
     margin-top: 30px;
 }
 
-.velikosti{
+.velikosti {
     padding: 0; 
 }
 
-li{
+.velikosti li {
     display: inline;
-    padding: 0px 5px 0px 0px;
+    padding: 5px;
     margin: 0px 15px 30px 0px;
-    }
+}
 
-.tlacitko{
+.tlacitko {
     color: white;
     background: #f15f42;
     padding: 15px 30px;
@@ -129,16 +130,16 @@ li{
     bottom: 30px;
 }
 
-.tlacitko:hover{
+.tlacitko:hover {
     border: 1px solid #06d7c1;
     background: #50cc49;
 }
-.vybrana{
+
+.vybrana {
     border: 1px dotted #f15f42;
-    padding: 5px;
     border-radius: 50%;
 }
 
-.bota{
+.bota {
     left: -80px;
 }
